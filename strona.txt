@@ -1,0 +1,124 @@
+
+Kopiuj
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Klub Jachtowy Kolejarz</title>
+    <style>
+        /* Podstawowe style */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* Jasne tło */
+        }
+
+        /* Nagłówek z logo */
+        header {
+            background-color: #004080;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* Logo klubu */
+        #logo {
+            height: 80px;
+            /* szerokość automatyczna, aby zachować proporcje */
+        }
+
+        /* Tytuł strony */
+        h1 {
+            color: white;
+            margin: 0;
+        }
+
+        /* Menu nawigacyjne */
+        nav {
+            background-color: #0066cc;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: #005bb5;
+        }
+
+        /* Główna zawartość strony */
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        /* Stopka */
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        /* Style dla obrazków wewnątrz treści */
+        .content-image {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Nagłówek z logo i tytułem -->
+    <header>
+        <!-- Wstaw tutaj logo klubu -->
+        <img id="logo" src="sciezka_do_logo.png" alt="Logo Klubu Jachtowego Kolejarz">
+        <h1>Klub Jachtowy Kolejarz</h1>
+    </header>
+
+    <!-- Menu nawigacyjne -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="czlonkowie.html">Członkowie</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="wydarzenia.html">Wydarzenia</a></li>
+        </ul>
+    </nav>
+
+    <!-- Główna treść -->
+    <main>
+        <!-- Domyślnie tutaj pojawi się treść strony głównej -->
+        <h2>Witamy na stronie Klubu Jachtowego Kolejarz</h2>
+        <p>Tu możesz dodać informacje o klubie, aktualności, zdjęcia i inne treści.</p>
+        <!-- Przykład grafiki -->
+        <!-- <img src="sciezka_do_zdjecia.jpg" alt="Opis zdjęcia" class="content-image"> -->
+    </main>
+
+    <!-- Stopka -->
+    <footer>
+        <p>&copy; 2023 Klub Jachtowy Kolejarz. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+</body>
+</html>
